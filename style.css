@@ -3,7 +3,34 @@
     --grey: #393E46;
     --white: #EEEEEE;
     --accent: #00ADB5;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
- 
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--black);
+}
+
+header h1 {
+    text-align: center;
+    color: var(--white);
+    padding: 1.5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.items{
+    padding: 150px;
+    background-color: var(--accent);
+    margin: 20px;
+    color:var(--white);
+}
